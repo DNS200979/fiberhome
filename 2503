@@ -234,7 +234,7 @@ h3.sub-title { font-size: 1.05rem; margin-top: 20px; color: #333; }
         <div class="kpi-grid">
             <div class="kpi-card"><div class="kpi-title">Pipeline Value</div><div class="kpi-value">$380K</div></div>
             <div class="kpi-card"><div class="kpi-title">Deals Approved</div><div class="kpi-value">1</div></div>
-            <div class="kpi-card"><div class="kpi-title">In Progress</div><div class="kpi-value">4</div></div>
+            <div class="kpi-card"><div class="kpi-title">In Progress</div><div class="kpi-value">5</div></div>
             <div class="kpi-card"><div class="kpi-title">Deals at Risk</div><div class="kpi-value">3</div></div>
         </div>
 
@@ -260,96 +260,104 @@ h3.sub-title { font-size: 1.05rem; margin-top: 20px; color: #333; }
                                 <td class="status-ok">Approved</td>
                                 <td class="priority-low">Low</td>
                                 <td><strong>$380K</strong><div class="progress-bg"><div class="progress-bar" style="width: 12.6%;"></div></div><span class="progress-text">of $3.0M</span></td>
-                                <td>P.O. antecipated and Small distributor process</td>
+                                <td>P.O. antecipated and Small distributor Visit</td>
                                 <td><button class="task-btn" onclick="openModal('t1')" style="background-color: #f39c12;">View Data</button></td>
                             </tr>
                             <tr onmouseenter="highlightMap('chub')" onmouseleave="resetMap()">
                                 <td>C-Hub (Toledo)</td>
-                                <td class="status-warning">In Progress</td>
+                                <td class="status-alert">Delayed</td>
                                 <td class="priority-high">High</td>
                                 <td><strong>$0.00</strong><div class="progress-bg"><div class="progress-bar" style="width: 0%;"></div></div><span class="progress-text">of $3.0M</span></td>
-                                <td>HQ verify financial report and give a table price suggestion</td>
+                                <td><strong>Schedule Presencial Visit</strong></td>
                                 <td><button class="task-btn" onclick="openModal('t2')" style="background-color: #f39c12;">View Data</button></td>
                             </tr>
                             <tr onmouseenter="highlightMap('route66')" onmouseleave="resetMap()">
                                 <td>Route66</td>
-                                <td class="status-warning">In Progress</td>
+                                <td class="status-alert">Delayed</td>
                                 <td class="priority-high">High</td>
                                 <td><strong>$0.00</strong><div class="progress-bg"><div class="progress-bar" style="width: 0%;"></div></div><span class="progress-text">of $3.0M</span></td>
-                                <td>Presencial visit</td>
+                                <td><strong>Schedule Presencial Visit</strong></td>
                                 <td><button class="task-btn" onclick="openModal('t5')" style="background-color: #f39c12;">View Data</button></td>
                             </tr>
-                            <tr onmouseenter="highlightMap('nextcable')" onmouseleave="resetMap()">
-                                <td>Next Cable</td>
-                                <td class="status-warning">In Progress</td>
+                            <tr onmouseenter="highlightMap('comercialbrasil')" onmouseleave="resetMap()">
+                                <td>Comercial Brasil</td>
+                                <td class="status-alert">Delayed</td>
                                 <td class="priority-high">High</td>
                                 <td><strong>$0.00</strong><div class="progress-bg"><div class="progress-bar" style="width: 0%;"></div></div><span class="progress-text">of $3.0M</span></td>
-                                <td>Huawei Pricing (Rodrigo) & Fin. Report Analysis (Zachary)</td>
-                                <td><button class="task-btn" onclick="openModal('t3')" style="background-color: #f39c12;">View Tasks</button></td>
+                                <td>Waiting Financial Report</td>
+                                <td><button class="task-btn" onclick="openModal('t13')" style="background-color: #f39c12;">View Data</button></td>
                             </tr>
-                            <tr onmouseenter="highlightMap('gw')" onmouseleave="resetMap()">
-                                <td>GW</td>
-                                <td class="status-warning">In Progress</td>
-                                <td class="priority-high">High</td>
-                                <td><strong>$0.00</strong><div class="progress-bg"><div class="progress-bar" style="width: 0%;"></div></div><span class="progress-text">of $3.0M</span></td>
-                                <td>Portfolio/Docs Delivery & Fin. Report Alignment</td>
-                                <td><button class="task-btn" onclick="openModal('t6')" style="background-color: #f39c12;">View Tasks</button></td>
-                            </tr>
-                            <tr onmouseenter="highlightMap('premium')" onmouseleave="resetMap()">
-                                <td>Premium</td>
-                                <td class="status-warning">In Progress</td>
-                                <td class="priority-low">Low</td>
-                                <td><strong>$0.00</strong><div class="progress-bg"><div class="progress-bar" style="width: 0%;"></div></div><span class="progress-text">of $3.0M</span></td>
-                                <td>Evaluate operational capacity</td>
-                                <td><button class="task-btn" onclick="openModal('t12')" style="background-color: #f39c12;">View Data</button></td>
-                            </tr>
-                            <tr onmouseenter="highlightMap('televit')" onmouseleave="resetMap()">
+							<tr onmouseenter="highlightMap('televit')" onmouseleave="resetMap()">
                                 <td>Televit</td>
                                 <td class="status-alert">Delayed</td>
                                 <td class="priority-high">High</td>
                                 <td><strong>$0.00</strong><div class="progress-bg"><div class="progress-bar" style="width: 0%;"></div></div><span class="progress-text">of $3.0M</span></td>
-                                <td>Alliance Negotiations (CEO) & Target Pricing (CFO)</td>
-                                <td><button class="task-btn" onclick="openModal('t4')" style="background-color: #e74c3c;">View Tasks</button></td>
+                                <td>Waiting Finantial Report</td>
+								<td><button class="task-btn" onclick="openModal('t4')" style="background-color: #f39c12;">View Data</button></td>
+                            </tr>
+							<tr onmouseenter="highlightMap('nextcable')" onmouseleave="resetMap()">
+                                <td>Next Cable</td>
+                                <td class="status-warning">In Progress</td>
+                                <td class="priority-medium">Medium</td>
+                                <td><strong>$0.00</strong><div class="progress-bg"><div class="progress-bar" style="width: 0%;"></div></div><span class="progress-text">of $3.0M</span></td>
+                                <td><strong>Partner Avaible for Presencial Visit</strong></td>
+                                <td><button class="task-btn" onclick="openModal('t3')" style="background-color: #f39c12;">View Data</button></td>
+                            </tr>
+                            <tr onmouseenter="highlightMap('gw')" onmouseleave="resetMap()">
+                                <td>GW</td>
+                                <td class="status-warning">In Progress</td>
+                                <td class="priority-medium">Medium</td>
+                                <td><strong>$0.00</strong><div class="progress-bg"><div class="progress-bar" style="width: 0%;"></div></div><span class="progress-text">of $3.0M</span></td>
+                                <td>Waiting financial report</td>
+                                <td><button class="task-btn" onclick="openModal('t6')" style="background-color: #f39c12;">View Data</button></td>
+                            </tr>
+							<tr onmouseenter="highlightMap('think')" onmouseleave="resetMap()">
+                                <td>Think Tecnology</td>
+                                <td class="status-warning">In Progress</td>
+                                <td class="priority-medium">Medium</td>
+                                <td><strong>$0.00</strong><div class="progress-bg"><div class="progress-bar" style="width: 0%;"></div></div><span class="progress-text">of $3.0M</span></td>
+                                <td>Verify prices for imported products ODN and GPON</td>                                
+								<td><button class="task-btn" onclick="openModal('t11')" style="background-color: #f39c12;">View Data</button></td>
+                            </tr>
+                            <tr onmouseenter="highlightMap('premium')" onmouseleave="resetMap()">
+                                <td>Premium</td>
+                                <td class="status-warning">In Progress</td>
+                                <td class="priority-medium">Medium</td>
+                                <td><strong>$0.00</strong><div class="progress-bg"><div class="progress-bar" style="width: 0%;"></div></div><span class="progress-text">of $3.0M</span></td>
+                                <td>Waiting their proposal of partnership</td>
+                                <td><button class="task-btn" onclick="openModal('t12')" style="background-color: #f39c12;">View Data</button></td>
                             </tr>
                             <tr onmouseenter="highlightMap('suprinordeste')" onmouseleave="resetMap()">
                                 <td>Suprinordeste</td>
-                                <td class="status-alert">Delayed</td>
-                                <td class="priority-medium">Medium</td>
+                                <td class="status-low">On hold</td>
+                                <td class="priority-low">Low</td>
                                 <td><strong>$0.00</strong><div class="progress-bg"><div class="progress-bar" style="width: 0%;"></div></div><span class="progress-text">of $3.0M</span></td>
-                                <td>Receive financial reports</td>
-                                <td><button class="task-btn" onclick="openModal('t7')">Open</button></td>
+                                <td>Return Negotiation</td>
+                                <td><button class="task-btn" onclick="openModal('t9')">Open</button></td>
                             </tr>
                             <tr onmouseenter="highlightMap('oiw')" onmouseleave="resetMap()">
                                 <td>OiW</td>
-                                <td class="status-alert">Delayed</td>
-                                <td class="priority-high">High</td>
+								<td class="status-low">On hold</td>
+                                <td class="priority-low">Low</td>
                                 <td><strong>$0.00</strong><div class="progress-bg"><div class="progress-bar" style="width: 0%;"></div></div><span class="progress-text">of $3.0M</span></td>
-                                <td>Verify suggested prices and signature contract</td>
+                                <td>Undestain Competition with Prexx</td>
                                 <td><button class="task-btn" onclick="openModal('t8')">Open</button></td>
                             </tr>
                             <tr onmouseenter="highlightMap('centry')" onmouseleave="resetMap()">
                                 <td>Centry Group</td>
-                                <td class="status-pending">On hold</td>
-                                <td class="priority-medium">Medium</td>
+                                <td class="status-low">On hold</td>
+                                <td class="priority-low">Low</td>
                                 <td><strong>$0.00</strong><div class="progress-bg"><div class="progress-bar" style="width: 0%;"></div></div><span class="progress-text">of $3.0M</span></td>
-                                <td>Financial reports</td>
+                                <td>Return Negotiation</td>
                                 <td><button class="task-btn" onclick="openModal('t9')">Open</button></td>
                             </tr>
                             <tr onmouseenter="highlightMap('sheroline')" onmouseleave="resetMap()">
                                 <td>Sheroline</td>
-                                <td class="status-pending">On hold</td>
+                                <td class="status-low">On hold</td>
                                 <td class="priority-low">Low</td>
                                 <td><strong>$0.00</strong><div class="progress-bg"><div class="progress-bar" style="width: 0%;"></div></div><span class="progress-text">of $3.0M</span></td>
-                                <td>Schedule meeting</td>
-                                <td><button class="task-btn" onclick="openModal('t10')">Open</button></td>
-                            </tr>
-                            <tr onmouseenter="highlightMap('think')" onmouseleave="resetMap()">
-                                <td>Think Technology</td>
-                                <td class="status-pending">On hold</td>
-                                <td class="priority-low">Low</td>
-                                <td><strong>$0.00</strong><div class="progress-bg"><div class="progress-bar" style="width: 0%;"></div></div><span class="progress-text">of $3.0M</span></td>
-                                <td>Broadband/ODN Feasibility & Portfolio Delivery</td>
-                                <td><button class="task-btn" onclick="openModal('t11')" style="background-color: #f39c12;">View Tasks</button></td>
+                                <td>Return Negotiation</td>
+                                <td><button class="task-btn" onclick="openModal('t9')">Open</button></td>
                             </tr>
                         </tbody>
                     </table>
@@ -446,6 +454,7 @@ h3.sub-title { font-size: 1.05rem; margin-top: 20px; color: #333; }
                         <button class="lang-btn" onclick="setLang('en')">EN</button>
                     </div>
                 </header>
+
                 <div class="card">
                     <div class="card-title" data-pt="Parâmetros de Entrada" data-en="Input Parameters">Parâmetros de Entrada</div>
                     <div class="grid">
@@ -487,10 +496,12 @@ h3.sub-title { font-size: 1.05rem; margin-top: 20px; color: #333; }
                     </div>
                     <button class="btn-calc" onclick="calcular()" data-pt="▶ CALCULAR CUSTO FINAL" data-en="▶ CALCULATE FINAL COST">▶ CALCULAR CUSTO FINAL</button>
                 </div>
+
                 <div class="card results" id="resultado">
                     <div class="card-title" data-pt="Composição do Custo Final" data-en="Final Cost Breakdown">Composição do Custo Final</div>
                     <div class="breakdown-bar" id="breakdownBar"></div>
                     <div class="legend" id="breakdownLegend"></div>
+
                     <div class="result-row">
                         <span class="result-label" data-pt="Valor Aduaneiro — CIF (BRL)" data-en="Customs Value — CIF (BRL)">Valor Aduaneiro — CIF (BRL)</span>
                         <span class="result-value" id="resCif"></span>
@@ -533,53 +544,13 @@ h3.sub-title { font-size: 1.05rem; margin-top: 20px; color: #333; }
 
 </div>
 
-<div id="t3" class="modal">
+<div id="t13" class="modal">
     <div class="modal-content wide-modal">
-        <span class="close" onclick="closeModal('t3')">X</span>
-        <h4>Next Cable - Pending Tasks</h4>
-        <ul style="font-size: 0.85em; margin-bottom: 15px; line-height: 1.8;">
-            <li><b style="color: #e74c3c;">[HIGH PRIORITY]</b> <b>Huawei Pricing Update:</b> Responsible: Rodrigo. <span style="background: #fff4f4; padding: 2px 4px; border-radius: 3px;">Due: TODAY</span>.</li>
-            <li><b>Financial Report Analysis:</b> Zachary (FH) has already received and analyzed the report.</li>
-            <li><b>Technical Alignment:</b> Technical meeting scheduled to finalize support process and registration details.</li>
-        </ul>
-        <h5 style="margin-top: 10px; margin-bottom: 5px;">Market Context</h5>
-        <p style="font-size: 0.8em;">Current benchmarking: Huawei ONTAX300 at US$ 24.50 (FOB) and Raw Fiber at US$ 250/kg.</p>
-    </div>
-</div>
-
-<div id="t4" class="modal">
-    <div class="modal-content wide-modal">
-        <span class="close" onclick="closeModal('t4')">X</span>
-        <h4>Televit - Strategic Alliance Plan</h4>
-        <ul style="font-size: 0.85em; margin-bottom: 15px; line-height: 1.8;">
-            <li><b>Alliance Lead:</b> Tarcísio (CEO) will lead negotiations with Central Brasil and H2I to expedite the potential alliance and finalize with Fiberhome.</li>
-            <li><b>Target Pricing & Volumes:</b> Tarciso Filho (CFO) to provide last year's sales volumes for GPON and ODN.</li>
-            <li><b>Historical Mapping:</b> Denis (Fiberhome) will provide Intelbras historical sales data for the Northeast region.</li>
-        </ul>
-    </div>
-</div>
-
-<div id="t6" class="modal">
-    <div class="modal-content wide-modal">
-        <span class="close" onclick="closeModal('t6')">X</span>
-        <h4>GW - Negotiation Checklist</h4>
-        <ul style="font-size: 0.85em; margin-bottom: 15px; line-height: 1.8;">
-            <li><b>Documentation:</b> FiberHome to send full portfolio and documentation for ODN/GPON pricing studies.</li>
-            <li><b>Financial Credit:</b> Gilmar (GW) to forward financial report to define limits and installment conditions.</li>
-            <li><b>Strategic Alignment:</b> Both parties must align on "Target Price" and the first batch quantity.</li>
-        </ul>
-    </div>
-</div>
-
-<div id="t11" class="modal">
-    <div class="modal-content wide-modal">
-        <span class="close" onclick="closeModal('t11')">X</span>
-        <h4>Think Technology - Partnership Expansion</h4>
-        <ul style="font-size: 0.85em; margin-bottom: 15px; line-height: 1.8;">
-            <li><b>Product Portfolio:</b> FiberHome to send complete portfolio for Broadband and ODN (Washin Fujikura) lines.</li>
-            <li><b>Feasibility Analysis:</b> FiberHome to provide "target pricing" ideas for feasibility assessment.</li>
-            <li><b>Final Costing:</b> Kennedy and Valmir (Tink) will evaluate landed costs based on the upcoming pricing spreadsheet.</li>
-        </ul>
+        <span class="close" onclick="closeModal('t13')">X</span>
+        <h4>Comercial Brasil - Account Intelligence</h4>
+        <p style="font-size: 0.85em;"><b>Status:</b> <span class="status-alert">Delayed (High Priority)</span></p>
+        <h5 style="margin-top: 10px; margin-bottom: 5px; color: #003366;">Current Activity</h5>
+        <p style="font-size: 0.85em;">Was sent requirement partnership form and portifolium. Currently waiting for the financial report to proceed with the categorization of the partner in the tier model.</p>
     </div>
 </div>
 
@@ -587,7 +558,36 @@ h3.sub-title { font-size: 1.05rem; margin-top: 20px; color: #333; }
     <div class="modal-content wide-modal">
         <span class="close" onclick="closeModal('t1')">X</span>
         <h4>Prexx Group - Strategic Alignment</h4>
-        <p style="font-size: 0.85em;">Concerns regarding channel conflict and Q2 P.O. anticipation.</p>
+        <ul style="font-size: 0.85em; margin-bottom: 15px;">
+            <li><b>Channel Conflict:</b> Prexx expressed concern regarding our progress with other distributors. They specifically mentioned our approach to FiberFix (São Paulo, with significant cable sales), highlighting that they consider FiberFix a strategic and exclusive partner for their operation in the state.</li>
+            <li><b>P.O. Anticipation:</b> They requested the anticipation of Purchase Orders for the second quarter (Q2). Zachary will check the feasibility of this operation internally.</li>
+            <li><b>Pricing Feedback (Washin Fujikura Cables):</b> They have a strong interest in purchasing our second line of cables. However, they pointed out that our prices are 15% above the market for ASU cables and almost 25% higher for Drop cables.</li>
+        </ul>
+        <h5 style="margin-bottom: 10px;">Next Actions (Joint Visits)</h5>
+        <table class="modal-table">
+            <thead>
+                <tr><th>Date</th><th>Time</th><th>Partner</th><th>Location</th></tr></th>
+            </thead>
+            <tbody>
+                <tr><td>March 17</td><td>10:00 AM</td><td>Greatek</td><td>São José dos Campos</td></tr>
+                <tr><td>March 17</td><td>3:00 PM</td><td>Select Tech</td><td>São Paulo</td></tr>
+                <tr><td>March 18</td><td>TBD</td><td>Supritec</td><td>Mogi Guaçu</td></tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div id="t12" class="modal">
+     <div class="modal-content wide-modal">
+		<span class="close" onclick="closeModal('t12')">X</span>
+        <h4>Premium - Account Intelligence</h4>
+        <p style="font-size: 0.85em;"><b>Status:</b> Initial alignment completed.</p>
+        <h5 style="margin-top: 10px; margin-bottom: 5px; color: #003366;">Key Takeaways</h5>
+        <p style="font-size: 0.85em;">The visit was productive and established a solid foundation for our channel expansion in the region. 
+		<h5 style="margin-top: 10px; margin-bottom: 5px;">Next Distributor task</h5>
+        <p style="font-size: 0.85em;">They are studing our proposal and will return in the end of March.</p>
+        <p style="font-size: 0.85em; color: #e74c3c; font-weight: bold; margin-top: 10px;">Risk / Observation:</p>
+        <p style="font-size: 0.85em;">They are probably will close deals with TP-Link.</p>
     </div>
 </div>
 
@@ -595,46 +595,90 @@ h3.sub-title { font-size: 1.05rem; margin-top: 20px; color: #333; }
     <div class="modal-content wide-modal">
         <span class="close" onclick="closeModal('t2')">X</span>
         <h4>C-Hub (Toledo) - Account Intelligence</h4>
-        <p style="font-size: 0.85em;">40c container proposal sent. Waiting for start.</p>
+        <p style="font-size: 0.85em;"><b>Status:</b> <span class="status-alert">Delayed (High Priority)</span></p>
+        <h5 style="margin-top: 10px; margin-bottom: 5px; color: #003366;">Recent Updates</h5>
+        <p style="font-size: 0.85em;">Information was sent last week, they want to start the purchase imediatly to get the better prices, i was sent the proposal of initial P.O. with full 40c container. <b>Next Step: Schedule Presencial Visit.</b></p>
+		<h5 style="margin-top: 10px; margin-bottom: 5px;">Next Distributor task</h5>
+        <p style="font-size: 0.85em;">C-hub will get next agenda avaible to schedule a presencial visit, we will join to close the prices, volume and contract first version.</p>
+	</div>
+</div>
+
+<div id="t3" class="modal">
+    <div class="modal-content wide-modal">
+        <span class="close" onclick="closeModal('t3')">X</span>
+        <h4>Next Cable - Account Intelligence</h4>
+        <p style="font-size: 0.85em;"><b>Status:</b> <span class="status-alert">In Progress (High Priority)</span></p>
+        <h5 style="margin-top: 10px; margin-bottom: 5px; color: #003366;">Key Takeaways & Benchmarking</h5>
+        <p style="font-size: 0.85em;">We are waiting to receive their financial reports and a detailed breakdown of competitor prices. For context, our benchmarking shows they are currently purchasing <b>Huawei ONTAX300 at US$ 24.50 (FOB)</b> and <b>Fiber (Raw Material) at US$ 250/kg (FOB)</b>.</p>
+        <h5 style="margin-top: 10px; margin-bottom: 5px;">Next Fiberhome Task</h5>
+        <p style="font-size: 0.85em;">Verify if we will go with this distributor, they already sent finantial report and "the ball with us now", CEO has open to make a presencial visit, discuss prices and volume to close a contract.</p>
+    </div>
+</div>
+
+<div id="t4" class="modal">
+<div class="modal-content wide-modal">
+        <span class="close" onclick="closeModal('t4')">X</span>
+        <h4>Televit - Account Intelligence</h4>
+        <p style="font-size: 0.85em;"><b>Status:</b> <span class="status-alert">Delayed (High Priority)</span></p>
+        <h5 style="margin-top: 10px; margin-bottom: 5px;">Next Distributor Task</h5>
+        <p style="font-size: 0.85em;">Televit will looking for others distributors in Notheast to disscuss a internal aliance and proposal a strong partnership with Fiberhome as a Tier one in region.</p>
     </div>
 </div>
 
 <div id="t5" class="modal">
     <div class="modal-content wide-modal">
         <span class="close" onclick="closeModal('t5')">X</span>
-        <h4>Route 66 - Competitive Risk</h4>
-        <p style="font-size: 0.85em;">TP-Link/Think competition identified. Up2Tech compliance risk.</p>
+        <h4>Route 66 - Account Intelligence</h4>
+        <p style="font-size: 0.85em;"><b>Status:</b> <span class="status-alert">Delayed (High Priority)</span></p>
+        
+        <h5 style="margin-top: 10px; margin-bottom: 5px; color: #003366;">Fiberhome Billing Analysis</h5>
+        <p style="font-size: 0.85em; margin-bottom: 10px;">The partner demonstrated formidable commitment. In 2024, their purchasing volume reached <b>R$ 4,444,625.16</b>, rising significantly in 2025 to <b>R$ 9,139,956.31</b>.</p>
+        
+        <h5 style="margin-bottom: 5px; color: #e74c3c;">Competitive Risk</h5>
+        <p style="font-size: 0.85em; margin-bottom: 15px;">The 2025 data reveals a massive entry by the competition, with the purchase of <b>11,194 ONUs</b> from the brand Think, alongside over <b>47,000 TP-Link devices</b>. <b>Next Step: Schedule Presencial Visit.</b></p>
+        <h5 style="margin-top: 10px; margin-bottom: 5px;">Next Fiberhome Task</h5>
+        <p style="font-size: 0.85em;">Route ask how much they need import per year for got the better price, they can pay in advance with higher volume for better prices</p>
+        <div style="background: #fff4f4; border-left: 5px solid #e74c3c; padding: 10px; border-radius: 6px; font-size: 0.85em;">
+            <strong style="color: #e74c3c;">Compliance Warning (Up2Tech)</strong><br>
+            We need an urgent internal alignment on the Up2Tech situation. Partner explicitly stated they will cut ties with Fiberhome if we proceed with Up2Tech.
+        </div>
     </div>
 </div>
 
-<div id="t12" class="modal">
+<div id="t6" class="modal">
     <div class="modal-content wide-modal">
-        <span class="close" onclick="closeModal('t12')">X</span>
-        <h4>Premium - Account Intelligence</h4>
-        <p style="font-size: 0.85em;">Operational capacity review. TP-Link risk.</p>
+        <span class="close" onclick="closeModal('t6')">X</span>
+        <h4>GW - Account Intelligence</h4>
+        <p style="font-size: 0.85em;"><b>Status:</b> <span class="status-warning">In Progress (High Priority)</span></p>
+        <h5 style="margin-top: 10px; margin-bottom: 5px; color: #003366;">Next Distributor task</h5>
+        <p style="font-size: 0.85em;">Prepare the financial report and partnership requested form.</p>
     </div>
 </div>
 
-<div id="t7" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('t7')">X</span><h4>Suprinordeste Task</h4>Review updates.</div></div>
-<div id="t8" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('t8')">X</span><h4>OiW Task</h4>Region overlap with Prexx.</div></div>
-<div id="t9" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('t9')">X</span><h4>Centry Group Task</h4>Review updates.</div></div>
-<div id="t10" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('t10')">X</span><h4>Sheroline Task</h4>Review updates.</div></div>
+<div id="t7" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('t7')">X</span><h4>Suprinordeste Task</h4>Distributor did´t response our calls this week</div></div>
+<div id="t8" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('t8')">X</span><h4>OiW Task</h4>No task this week for OiW</div></div>
+<div id="t9" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('t9')">X</span><h4>Centry Group Task</h4>Distributor did´t response our calls this week</div></div>
+<div id="t10" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('t10')">X</span><h4>Sheroline Task</h4>No task this week for Sheroline</div></div>
+<div id="t11" class="modal"><div class="modal-content"><span class="close" onclick="closeModal('t11')">X</span><h4>Think Tecnology Task</h4>We share the new brand of cables and propouse a bussnes with importation products</div></div>
 
 <div id="alert-up2tech" class="modal">
     <div class="modal-content" style="border-top: 5px solid #e74c3c;">
         <span class="close" onclick="closeModal('alert-up2tech')">X</span>
         <h4 style="color: #e74c3c; margin-top: 0;">RED ALERT: Up2Tech</h4>
-        <p style="font-size: 0.9em; line-height: 1.5;">Legal and reputational liability risks. Possible tax evasion issues.</p>
+        <p style="font-size: 0.9em; line-height: 1.5;">This is a "red alert" situation. If these rumors regarding black market products and tax evasion are true, the strategic plan we built is no longer a growth roadmap—it is a massive legal and reputational liability for Fiberhome.</p>
     </div>
 </div>
 
 <script>
-// Logic remains unchanged as requested
+// ==========================================================================
+// LÓGICA DE HIGHLIGHT DA MATRIZ DE COBERTURA (NATIVA HTML)
+// ==========================================================================
 const partnerRegions = {
     'prexx': ['SC', 'RS', 'SP', 'ES', 'AL'],
     'premium': ['PR'],
     'chub': ['AC','AM','RR','AP','RO','PA','TO'], 
     'nextcable': ['PR', 'MT', 'MG', 'SP', 'GO'],
+    'comercialbrasil': ['PI', 'CE', 'PE'], // NOVA ATRIBUIÇÃO
     'route66': ['SP', 'ES', 'MG'],
     'gw': ['GO', 'DF', 'TO', 'MA', 'PA'],
     'televit': ['BA'],
@@ -649,19 +693,34 @@ function highlightMap(partnerId) {
     resetMap();
     const states = partnerRegions[partnerId];
     if (!states) return;
+    
     states.forEach(uf => {
         const badge = document.getElementById('uf-' + uf);
-        if (badge) badge.classList.add('active');
+        if (badge) {
+            badge.classList.add('active');
+        }
     });
 }
 
 function resetMap() {
-    document.querySelectorAll('.uf-badge.active').forEach(b => b.classList.remove('active'));
+    const activeBadges = document.querySelectorAll('.uf-badge.active');
+    activeBadges.forEach(b => b.classList.remove('active'));
 }
 
+// ==========================================================================
+// LÓGICA DAS ABAS E MODALS
+// ==========================================================================
 function openTab(evt, tabName) {
-    document.querySelectorAll(".tab-content").forEach(tc => { tc.style.display = "none"; tc.classList.remove("active"); });
-    document.querySelectorAll(".tab-btn").forEach(tb => tb.className = tb.className.replace(" active", ""));
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tab-content");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+        tabcontent[i].classList.remove("active");
+    }
+    tablinks = document.getElementsByClassName("tab-btn");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
     document.getElementById(tabName).style.display = "block";
     setTimeout(() => { document.getElementById(tabName).classList.add("active"); }, 10);
     evt.currentTarget.className += " active";
@@ -670,42 +729,44 @@ function openTab(evt, tabName) {
 function openModal(id){ document.getElementById(id).style.display="block"; }
 function closeModal(id){ document.getElementById(id).style.display="none"; }
 
-// Landed cost logic...
+// ==========================================================================
+// LÓGICA DO LANDED COST CALCULATOR
+// ==========================================================================
 const PRODUTOS = [
     { value: 'ont',  label_pt: 'ONT (NCM 8517.62.55)', label_en: 'ONT (NCM 8517.62.55)', ii: 0.12, ipi: 0.10, ncm: '8517.62.55' },
     { value: 'olt',  label_pt: 'OLT (Ex-tarifário)',   label_en: 'OLT (Ex-tariff)',       ii: 0.00, ipi: 0.00, ncm: '8517.62.99' },
-    { value: 'cabo', label_pt: 'Cabo Óptico',           label_en: 'Fiber Optic Cable',     ii: 0.18, ipi: 0.15, ncm: '8544.70.00' },
+    { value: 'cabo', label_pt: 'Cabo Óptico',            label_en: 'Fiber Optic Cable',     ii: 0.18, ipi: 0.15, ncm: '8544.70.00' },
 ];
 
 const ESTADOS = [
-    { uf: 'AC',     nome_pt: 'Acre',                        nome_en: 'Acre',                        icms: 0.17  },
-    { uf: 'AL',     nome_pt: 'Alagoas',                     nome_en: 'Alagoas',                     icms: 0.19  },
-    { uf: 'AP',     nome_pt: 'Amapá',                       nome_en: 'Amapá',                       icms: 0.18  },
-    { uf: 'AM',     nome_pt: 'Amazonas',                    nome_en: 'Amazonas',                    icms: 0.20  },
-    { uf: 'BA',     nome_pt: 'Bahia',                       nome_en: 'Bahia',                       icms: 0.205 },
-    { uf: 'CE',     nome_pt: 'Ceará',                       nome_en: 'Ceará',                       icms: 0.20  },
-    { uf: 'DF',     nome_pt: 'Distrito Federal',            nome_en: 'Federal District',            icms: 0.18  },
-    { uf: 'ES',     nome_pt: 'Espírito Santo',               nome_en: 'Espírito Santo',              icms: 0.17  },
-    { uf: 'GO',     nome_pt: 'Goiás',                       nome_en: 'Goiás',                       icms: 0.17  },
-    { uf: 'MA',     nome_pt: 'Maranhão',                    nome_en: 'Maranhão',                    icms: 0.22  },
-    { uf: 'MT',     nome_pt: 'Mato Grosso',                 nome_en: 'Mato Grosso',                 icms: 0.17  },
-    { uf: 'MS',     nome_pt: 'Mato Grosso do Sul',           nome_en: 'Mato Grosso do Sul',          icms: 0.17  },
-    { uf: 'MG',     nome_pt: 'Minas Gerais',                 nome_en: 'Minas Gerais',                icms: 0.18  },
-    { uf: 'PA',     nome_pt: 'Pará',                        nome_en: 'Pará',                        icms: 0.17  },
-    { uf: 'PB',     nome_pt: 'Paraíba',                     nome_en: 'Paraíba',                     icms: 0.20  },
-    { uf: 'PR',     nome_pt: 'Paraná',                       nome_en: 'Paraná',                      icms: 0.195 },
-    { uf: 'PE',     nome_pt: 'Pernambuco',                  nome_en: 'Pernambuco',                  icms: 0.205 },
-    { uf: 'PI',     nome_pt: 'Piauí',                       nome_en: 'Piauí',                       icms: 0.21  },
-    { uf: 'RJ',     nome_pt: 'Rio de Janeiro',               nome_en: 'Rio de Janeiro',              icms: 0.20  },
-    { uf: 'RN',     nome_pt: 'Rio Grande do Norte',          nome_en: 'Rio Grande do Norte',         icms: 0.18  },
-    { uf: 'RS',     nome_pt: 'Rio Grande do Sul',            nome_en: 'Rio Grande do Sul',           icms: 0.18  },
-    { uf: 'RO',     nome_pt: 'Rondônia',                    nome_en: 'Rondônia',                    icms: 0.175 },
-    { uf: 'RR',     nome_pt: 'Roraima',                     nome_en: 'Roraima',                     icms: 0.17  },
-    { uf: 'SC',     nome_pt: 'Santa Catarina',               nome_en: 'Santa Catarina',              icms: 0.17  },
+    { uf: 'AC',     nome_pt: 'Acre',                         nome_en: 'Acre',                         icms: 0.17  },
+    { uf: 'AL',     nome_pt: 'Alagoas',                      nome_en: 'Alagoas',                      icms: 0.19  },
+    { uf: 'AP',     nome_pt: 'Amapá',                        nome_en: 'Amapá',                        icms: 0.18  },
+    { uf: 'AM',     nome_pt: 'Amazonas',                     nome_en: 'Amazonas',                     icms: 0.20  },
+    { uf: 'BA',     nome_pt: 'Bahia',                        nome_en: 'Bahia',                        icms: 0.205 },
+    { uf: 'CE',     nome_pt: 'Ceará',                        nome_en: 'Ceará',                        icms: 0.20  },
+    { uf: 'DF',     nome_pt: 'Distrito Federal',             nome_en: 'Federal District',             icms: 0.18  },
+    { uf: 'ES',     nome_pt: 'Espírito Santo',               nome_en: 'Espírito Santo',               icms: 0.17  },
+    { uf: 'GO',     nome_pt: 'Goiás',                        nome_en: 'Goiás',                        icms: 0.17  },
+    { uf: 'MA',     nome_pt: 'Maranhão',                     nome_en: 'Maranhão',                     icms: 0.22  },
+    { uf: 'MT',     nome_pt: 'Mato Grosso',                  nome_en: 'Mato Grosso',                  icms: 0.17  },
+    { uf: 'MS',     nome_pt: 'Mato Grosso do Sul',           nome_en: 'Mato Grosso do Sul',           icms: 0.17  },
+    { uf: 'MG',     nome_pt: 'Minas Gerais',                 nome_en: 'Minas Gerais',                 icms: 0.18  },
+    { uf: 'PA',     nome_pt: 'Pará',                         nome_en: 'Pará',                         icms: 0.17  },
+    { uf: 'PB',     nome_pt: 'Paraíba',                      nome_en: 'Paraíba',                      icms: 0.20  },
+    { uf: 'PR',     nome_pt: 'Paraná',                       nome_en: 'Paraná',                       icms: 0.195 },
+    { uf: 'PE',     nome_pt: 'Pernambuco',                   nome_en: 'Pernambuco',                   icms: 0.205 },
+    { uf: 'PI',     nome_pt: 'Piauí',                        nome_en: 'Piauí',                        icms: 0.21  },
+    { uf: 'RJ',     nome_pt: 'Rio de Janeiro',               nome_en: 'Rio de Janeiro',               icms: 0.20  },
+    { uf: 'RN',     nome_pt: 'Rio Grande do Norte',          nome_en: 'Rio Grande do Norte',          icms: 0.18  },
+    { uf: 'RS',     nome_pt: 'Rio Grande do Sul',            nome_en: 'Rio Grande do Sul',            icms: 0.18  },
+    { uf: 'RO',     nome_pt: 'Rondônia',                     nome_en: 'Rondônia',                     icms: 0.175 },
+    { uf: 'RR',     nome_pt: 'Roraima',                      nome_en: 'Roraima',                      icms: 0.17  },
+    { uf: 'SC',     nome_pt: 'Santa Catarina',               nome_en: 'Santa Catarina',               icms: 0.17  },
     { uf: 'SC_TTD', nome_pt: 'Santa Catarina — Benef. TTD',  nome_en: 'Santa Catarina — TTD Benefit',icms: 0.12  },
-    { uf: 'SP',     nome_pt: 'São Paulo',                   nome_en: 'São Paulo',                   icms: 0.18  },
-    { uf: 'SE',     nome_pt: 'Sergipe',                     nome_en: 'Sergipe',                     icms: 0.19  },
-    { uf: 'TO',     nome_pt: 'Tocantins',                   nome_en: 'Tocantins',                   icms: 0.18  },
+    { uf: 'SP',     nome_pt: 'São Paulo',                    nome_en: 'São Paulo',                    icms: 0.18  },
+    { uf: 'SE',     nome_pt: 'Sergipe',                      nome_en: 'Sergipe',                      icms: 0.19  },
+    { uf: 'TO',     nome_pt: 'Tocantins',                    nome_en: 'Tocantins',                    icms: 0.18  },
 ];
 
 const SUL_SUDESTE = new Set(['MG', 'RJ', 'SP', 'PR', 'SC', 'SC_TTD', 'RS']);
@@ -761,30 +822,50 @@ function populateEstadoSelect(selId, defaultUf) {
         opt.textContent = `${e.uf.replace('_TTD','')} — ${nome} (ICMS ${(e.icms*100).toFixed(1)}%)`;
         sel.appendChild(opt);
     });
-    sel.value = prev || defaultUf;
+    if (prev) sel.value = prev;
+    else sel.value = defaultUf;
 }
 
-function buildEstadoSelects() { populateEstadoSelect('estadoOrigem', 'SC'); populateEstadoSelect('estadoDestino', 'SP'); }
+function buildEstadoSelects() {
+    populateEstadoSelect('estadoOrigem', 'SC');
+    populateEstadoSelect('estadoDestino', 'SP');
+}
+
 function getSelectedProduto() { return PRODUTOS.find(p => p.value === document.getElementById('produto').value); }
 function getEstado(selId) { return ESTADOS.find(e => e.uf === document.getElementById(selId).value); }
 
 function onProdutoChange() {
     const p = getSelectedProduto();
-    if (p) document.getElementById('ipiDisplay').textContent = `${(p.ipi * 100).toFixed(0)}%  —  NCM ${p.ncm}`;
+    if (!p) return;
+    document.getElementById('ipiDisplay').textContent = `${(p.ipi * 100).toFixed(0)}%  —  NCM ${p.ncm}`;
 }
 
 function onEstadoChange() {
-    const origem = getEstado('estadoOrigem'); const destino = getEstado('estadoDestino');
+    const origem  = getEstado('estadoOrigem');
+    const destino = getEstado('estadoDestino');
     if (!origem || !destino) return;
+
     const difalAliq = calcDifalAliq(origem, destino);
+    const difalDisplay = document.getElementById('difalDisplay');
+    const difalInfo = document.getElementById('difalInfo');
+    const difalTitle = document.getElementById('difalTitle');
+    const difalDesc = document.getElementById('difalDesc');
     const mesmaUf = origem.uf.replace('_TTD','') === destino.uf.replace('_TTD','');
+
     if (mesmaUf) {
-        document.getElementById('difalDisplay').textContent = currentLang === 'pt' ? '0%  — operação interna' : '0%  — internal operation';
-        document.getElementById('difalInfo').style.display = 'none';
-    } else {
+        difalDisplay.textContent = currentLang === 'pt' ? '0%  — operação interna (origem = destino)' : '0%  — internal operation (same state)';
+        difalInfo.style.display = 'none';
+    } else if (difalAliq > 0) {
         const inter = getAliqInter(origem.uf, destino.uf);
-        document.getElementById('difalDisplay').textContent = `${(difalAliq*100).toFixed(1)}%`;
-        document.getElementById('difalInfo').style.display = 'block';
+        difalDisplay.textContent = `${(difalAliq*100).toFixed(1)}%  (ICMS ${(destino.icms*100).toFixed(1)}% − inter ${(inter*100).toFixed(0)}%)`;
+        difalInfo.style.display = 'block';
+        const nomeOrigem = currentLang === 'pt' ? origem.nome_pt : origem.nome_en;
+        const nomeDestino = currentLang === 'pt' ? destino.nome_pt : destino.nome_en;
+        difalTitle.textContent = currentLang === 'pt' ? `⚡ DIFAL aplicável: ${nomeOrigem} → ${nomeDestino}` : `⚡ DIFAL applies: ${nomeOrigem} → ${nomeDestino}`;
+        difalDesc.textContent = currentLang === 'pt' ? `ICMS interno destino (${(destino.icms*100).toFixed(1)}%) − alíquota interestadual (${(inter*100).toFixed(0)}%) = ${(difalAliq*100).toFixed(1)}%` : `Destination internal ICMS (${(destino.icms*100).toFixed(1)}%) − interstate rate (${(inter*100).toFixed(0)}%) = ${(difalAliq*100).toFixed(1)}%`;
+    } else {
+        difalDisplay.textContent = currentLang === 'pt' ? '0%  — alíquota interna ≤ interestadual' : '0%  — internal rate ≤ interstate rate';
+        difalInfo.style.display = 'none';
     }
 }
 
@@ -794,19 +875,82 @@ function calcular() {
     const fob = parseFloat(document.getElementById('fob').value);
     const frete = parseFloat(document.getElementById('frete').value) || 0;
     const cambio = parseFloat(document.getElementById('cambio').value);
-    const p = getSelectedProduto(); const d = getEstado('estadoDestino');
+
+    if (isNaN(fob) || fob <= 0) { alert(currentLang === 'pt' ? 'Informe um valor FOB válido.' : 'Please enter a valid FOB value.'); return; }
+    if (isNaN(cambio) || cambio <= 0) { alert(currentLang === 'pt' ? 'Informe uma taxa de câmbio válida.' : 'Please enter a valid exchange rate.'); return; }
+
+    const produto = getSelectedProduto();
+    const origem = getEstado('estadoOrigem');
+    const destino = getEstado('estadoDestino');
+
+    const ii_aliq = produto.ii;
+    const ipi_aliq = produto.ipi;
+    const icms_aliq = destino.icms;
+    const difal_aliq = calcDifalAliq(origem, destino);
+
     const cif = (fob + frete) * cambio;
-    const vIi = cif * p.ii;
-    const vIpi = (cif + vIi) * p.ipi;
-    const vPis = cif * PISCOFINS_RATE;
-    const baseIcms = (cif + vIi + vIpi + vPis + TAXAS_FIXAS) / (1 - d.icms);
-    const vIcms = baseIcms * d.icms;
-    const total = cif + vIi + vIpi + vPis + vIcms + TAXAS_FIXAS;
-    document.getElementById('resTotal').textContent = fmt(total);
-    document.getElementById('resultado').style.display = 'block';
+    const vIi = cif * ii_aliq;
+    const vIpi = (cif + vIi) * ipi_aliq;
+    const vPisCofins = cif * PISCOFINS_RATE;
+    const baseIcms = (cif + vIi + vIpi + vPisCofins + TAXAS_FIXAS) / (1 - icms_aliq);
+    const vIcms = baseIcms * icms_aliq;
+    const vDifal = difal_aliq > 0 ? (cif + vIi) * difal_aliq : 0;
+    const totalFinal = cif + vIi + vIpi + vPisCofins + vIcms + vDifal + TAXAS_FIXAS;
+
+    document.getElementById('resCif').textContent = fmt(cif);
+    document.getElementById('resIi').textContent = fmt(vIi);
+    document.getElementById('resIpi').textContent = fmt(vIpi);
+    document.getElementById('resPisCofins').textContent = fmt(vPisCofins);
+    document.getElementById('resIcms').textContent = fmt(vIcms);
+    document.getElementById('resTaxas').textContent = fmt(TAXAS_FIXAS);
+    document.getElementById('resTotal').textContent = fmt(totalFinal);
+    document.getElementById('resIpiLabel').textContent = `IPI (${(ipi_aliq*100).toFixed(0)}%)`;
+
+    const rowDifal = document.getElementById('rowDifal');
+    if (vDifal > 0) {
+        document.getElementById('resDifal').textContent = fmt(vDifal) + `  (${(difal_aliq*100).toFixed(1)}%)`;
+        rowDifal.style.display = 'flex';
+    } else {
+        rowDifal.style.display = 'none';
+    }
+
+    const segs = [
+        { label: 'CIF', val: cif, color: '#00d4aa' },
+        { label: 'II', val: vIi, color: '#0080ff' },
+        { label: 'IPI', val: vIpi, color: '#a78bfa' },
+        { label: 'PIS/COFINS', val: vPisCofins, color: '#f59e0b' },
+        { label: 'ICMS', val: vIcms, color: '#ff6b6b' },
+        { label: 'DIFAL', val: vDifal, color: '#fb923c' },
+        { label: currentLang === 'pt' ? 'Taxas' : 'Fees', val: TAXAS_FIXAS, color: '#6b7280' },
+    ].filter(s => s.val > 0);
+
+    const bar = document.getElementById('breakdownBar');
+    const legend = document.getElementById('breakdownLegend');
+    bar.innerHTML = legend.innerHTML = '';
+
+    segs.forEach(s => {
+        const pct = (s.val / totalFinal * 100).toFixed(1);
+        const seg = document.createElement('div');
+        seg.className = 'bar-seg';
+        seg.style.width = pct + '%';
+        seg.style.background = s.color;
+        seg.title = `${s.label}: ${pct}%`;
+        bar.appendChild(seg);
+
+        const li = document.createElement('div');
+        li.className = 'legend-item';
+        li.innerHTML = `<div class="legend-dot" style="background:${s.color}"></div><span>${s.label} ${pct}%</span>`;
+        legend.appendChild(li);
+    });
+
+    const res = document.getElementById('resultado');
+    res.style.display = 'block';
 }
 
-buildProdutoSelect(); buildEstadoSelects(); onProdutoChange(); onEstadoChange();
+buildProdutoSelect();
+buildEstadoSelects();
+onProdutoChange();
+onEstadoChange();
 </script>
 
 </body>
